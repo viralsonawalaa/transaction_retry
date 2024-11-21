@@ -18,5 +18,5 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_runtime_dependency "activerecord", ">= 3.0.11"
-  s.add_runtime_dependency "transaction_isolation", ">= 1.0.2"
+  s.add_runtime_dependency "transaction_isolation"
 end

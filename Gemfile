@@ -3,6 +3,8 @@ source "http://rubygems.org"
 # Specify your gem's dependencies in kontolib.gemspec
 gemspec
 
+gem 'transaction_isolation', git: 'https://github.com/viralsonawalaa/transaction_isolation.git'
+
 group :test do
   # Use the gem instead of a dated version bundled with Ruby
   gem 'minitest', '2.8.1'
